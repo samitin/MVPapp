@@ -12,15 +12,7 @@ import kotlinx.android.synthetic.main.fragment1.*
 
 class Fragment1: Fragment() {
 
-    val BUNDLE_COUNTENT="bundle_countent"
 
-        /* fun myFragment1( content:String):Fragment1{
-         val fragment=Fragment1()
-         val argument=Bundle()
-         argument.putString(BUNDLE_COUNTENT,content)
-         fragment.arguments=argument
-         return fragment
-     }*/
     interface OnClickButton{
             fun onClickAdd(name:String){
 
